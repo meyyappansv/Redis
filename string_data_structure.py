@@ -15,5 +15,7 @@ r.append('users:meyyappan','car is mitsubishi')
 print "After append: " + r.get('users:meyyappan')
 print "\n"
 
-print "Substring: "  + r.getrange('users:meyyappan',10,20)
+r.set('range:test','ABCDEF' )
+
+print "Substring: "  + r.getrange('range:test',1,1)
 
