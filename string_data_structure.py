@@ -19,3 +19,9 @@ r.set('range:test','ABCDEF' )
 
 print "Substring: "  + r.getrange('range:test',0,2)
 
+r.set('increment:example', 'meyyappan')
+
+r.incrby('increment:example' 10)
+
+r.get('increment:example')
+
