@@ -13,3 +13,5 @@ print r.hmget('user:info','name','age')
 
 print r.hkeys('user:info')
 
+r.lpush('newusers','meyyappan','hari','nithya','shayli','naomi')
+print r.lrange('newusers','0','5')
