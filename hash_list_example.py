@@ -7,4 +7,4 @@ user = {"name":"meyyappan","age":"38", "race":"asian"}
 r.hmset('user:info',user)
 print "The user info: " + str(r.hgetall('user:info'))
 
-print "The name is {} and the age is {}" + r.hmget('user:info','name','age')
+print "The name is % and the age is % "  % (r.hmget('user:info','name','age'))
