@@ -10,3 +10,6 @@ r.hmset('user:info',user1)
 print "The user info: " + str(r.hgetall('user:info'))
 
 print r.hmget('user:info','name','age')
+
+print r.hkeys('user:info')
+
