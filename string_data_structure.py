@@ -17,5 +17,5 @@ print "\n"
 
 r.set('range:test','ABCDEF' )
 
-print "Substring: "  + r.getrange('range:test',1,1)
+print "Substring: "  + r.getrange('range:test',0,2)
 
